@@ -6,28 +6,6 @@ Built as a cybersecurity mini-project with **Python Flask**, a modular backend, 
 
 ---
 
-## Table of contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Technology stack](#technology-stack)
-- [How it works](#how-it-works)
-- [Project structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Threat scoring & risk levels](#threat-scoring--risk-levels)
-- [Detection rules (detailed)](#detection-rules-detailed)
-- [API reference](#api-reference)
-- [Configuration](#configuration)
-- [Deployment](#deployment)
-- [Limitations & disclaimer](#limitations--disclaimer)
-- [Future improvements](#future-improvements)
-- [Resume / portfolio description](#resume--portfolio-description)
-- [Publishing to GitHub](#publishing-to-github)
-- [License](#license)
-- [Additional documentation](#additional-documentation)
-
----
 
 ## Overview
 
@@ -443,11 +421,6 @@ git branch -M main
 git push -u origin main
 ```
 
-### Recommended repository topics
-
-`phishing`, `cybersecurity`, `flask`, `python`, `url-scanner`, `heuristic-analysis`, `web-security`, `mini-project`
-
----
 
 ## License
 
@@ -462,4 +435,6 @@ This project is released under the [MIT License](LICENSE). Free for educational 
 
 ---
 
-**PhishShield** — Heuristic phishing URL detection for learning and demonstration.
+**PhishShield** — Heuristic phishing URL detection for learning and demonstration. 
+
+***PROJECT INTEGRATED WITH AI***
