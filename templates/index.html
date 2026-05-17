@@ -1,0 +1,173 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>PhishShield</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:'Poppins',sans-serif;
+        }
+
+        body{
+
+            height:100vh;
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+            background:
+            linear-gradient(
+                135deg,
+                #020617,
+                #0f172a,
+                #111827
+            );
+        }
+
+        .container{
+
+            width:400px;
+
+            background:rgba(255,255,255,0.05);
+
+            border:1px solid rgba(255,255,255,0.1);
+
+            backdrop-filter:blur(15px);
+
+            border-radius:20px;
+
+            padding:40px;
+
+            color:white;
+
+            box-shadow:
+            0 8px 32px rgba(0,0,0,0.4);
+        }
+
+        h1{
+
+            text-align:center;
+
+            margin-bottom:10px;
+
+            font-size:34px;
+        }
+
+        p{
+
+            text-align:center;
+
+            color:#94a3b8;
+
+            margin-bottom:30px;
+        }
+
+        input{
+
+            width:100%;
+
+            padding:14px;
+
+            margin-bottom:20px;
+
+            border:none;
+
+            outline:none;
+
+            border-radius:12px;
+
+            background:#1e293b;
+
+            color:white;
+        }
+
+        button{
+
+            width:100%;
+
+            padding:14px;
+
+            border:none;
+
+            border-radius:12px;
+
+            background:#2563eb;
+
+            color:white;
+
+            font-size:16px;
+
+            font-weight:600;
+
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#1d4ed8;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🛡 PhishShield</h1>
+
+        <p>
+            Real-Time Phishing Email Detection
+        </p>
+
+        <form
+            action="/start-monitor"
+            method="POST"
+        >
+
+            <input
+                type="email"
+                name="email"
+                placeholder="Enter Gmail"
+                required
+            >
+
+            <input
+                type="password"
+                name="password"
+                placeholder="Enter Google App Password"
+                required
+            >
+
+            <button type="submit">
+                Start Monitoring
+            </button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
